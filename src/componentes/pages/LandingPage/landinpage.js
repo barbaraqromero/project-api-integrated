@@ -6,7 +6,7 @@ export default class LandingPage extends Component {
   render() {
     return (
       <div className="container">
-        <Header title="Quer receber novidades?" />
+        <Header title="Receba novidades!" />
         <hr />
         <Form className="form">
           <FormGroup>

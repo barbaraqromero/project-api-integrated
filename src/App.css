@@ -6,7 +6,8 @@
 
 body {
     background-image: url(https://kinsta.com/pt/wp-content/uploads/sites/3/2019/10/wordpress-plugin-da-pagina-de-aterragem-1024x512.png);
-    background-size:contain;
+    background-size:cover;
+    
 
 }
 
@@ -14,9 +15,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-   
     margin: 30px 50px 10px 50px;
-    overflow: hidden;
+   
 }
 
 .container {
@@ -26,10 +26,11 @@ body {
     color: #00008B;
     flex-direction: row;
     justify-content: flex-end;
-    margin: 100px 50px 100px 700px ;
+    margin: 100px 50px 100px 50px ;
     max-width: 500px;
     max-height: 550px;
     opacity:0.9;
+    overflow: hidden;
 }
 
 .form {
