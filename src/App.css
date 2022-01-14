@@ -4,13 +4,18 @@
     justify-content: center;
 }
 
+body {
+    background-image: url(https://kinsta.com/pt/wp-content/uploads/sites/3/2019/10/wordpress-plugin-da-pagina-de-aterragem-1024x512.png);
+    background-size:contain;
+
+}
+
 .LandingPage{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(https://kinsta.com/pt/wp-content/uploads/sites/3/2019/10/wordpress-plugin-da-pagina-de-aterragem-1024x512.png);
-    background-size:contain;
-    margin: 30px 50px 30px 50px;
+   
+    margin: 30px 50px 10px 50px;
     overflow: hidden;
 }
 
