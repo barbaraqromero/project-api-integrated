@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import PrivateRoute from "./auth";
 import Login from "./components/pages/Login";
 import Dashboard from "./components/pages/Dashboard";
-import Landing from "./components/pages/LandingPage";
+import LandingPage from "./components/pages/LandingPage";
 
 const Routes = () => (
   <Router>
